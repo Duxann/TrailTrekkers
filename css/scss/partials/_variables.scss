@@ -1,0 +1,23 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+$glavnaboja:#2b3035;
+$drugaboja:#faf7f0;
+$trecaboja:#a2c1aa;
+$cetvrtaboja:green;
+body{
+    background: $glavnaboja;
+}
+#wrap{
+    background-color: #faf7f0;
+    background: url('../../img/pozadina10.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    opacity: 0.94;
+    background-position:center;
+}
+.wallpaper{
+    filter:brightness(0.5);
+}

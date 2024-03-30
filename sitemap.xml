@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+    <url>
+        <loc>https://duxann.github.io/TrailTrekkers/index.html</loc>
+        <lastmod>2024-03-30</lastmod>
+        <changefreq>Weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://duxann.github.io/TrailTrekkers/aboutus.html</loc>
+        <lastmod>2024-03-30</lastmod>
+        <changefreq>Weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://duxann.github.io/TrailTrekkers/aboutme.html</loc>
+        <lastmod>2024-03-30</lastmod>
+        <changefreq>Monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://duxann.github.io/TrailTrekkers/reservation.html</loc>
+        <lastmod>2024-03-30</lastmod>
+        <changefreq>Yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>

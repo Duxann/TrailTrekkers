@@ -1,0 +1,46 @@
+.senka{
+    box-shadow: 0px 0px 5px #796e6e;
+}
+.zeleni{
+        a{
+            &:hover{
+            color:$cetvrtaboja;
+        }
+    }
+}
+.accordion-button{
+    &:focus{
+        box-shadow:0px 0px 5px green !important;
+    }
+}
+.form-control{
+    &:focus{
+        box-shadow: 0px 0px 10px 0px $cetvrtaboja !important;
+    }
+}
+.form-select{
+    &:focus{
+        box-shadow: 0px 0px 15px 0px $cetvrtaboja !important;
+    }
+}
+.form-check-input{
+    &:checked{
+        background-color:$cetvrtaboja !important;
+        border-color: $cetvrtaboja !important;
+    }
+}
+.form-control{
+    &:focus{
+        box-shadow: 0px 0px 10px 0px $cetvrtaboja !important;
+    }
+}
+.form-select{
+    &:focus{
+        box-shadow: 0px 0px 15px 0px $cetvrtaboja !important;
+    }
+}
+.accordion-button{
+    &:not(.collapsed){
+        background-color: $drugaboja !important;
+    }
+}
