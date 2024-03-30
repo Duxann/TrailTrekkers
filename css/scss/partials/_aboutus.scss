@@ -1,0 +1,62 @@
+#pozadinabout{
+    background-color:$drugaboja;
+}
+.kvadrat{
+    position: relative;
+    display: inline-block;
+}
+#clanovi{
+    background-color: $trecaboja;
+}
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width:80%;
+    height:90%;
+}
+  .zaokruzi{
+    border-radius: 50%;
+}
+  .kvadrat:hover .overlay-text {
+    opacity: 1;
+}
+.coloredtekst{
+    color:$trecaboja;
+}
+.teksthover2{
+    transition: all 0.2s;
+    &:hover{
+        color:$trecaboja;   
+    }
+        .tekstfont{
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
+        font-style: normal;
+        }
+        .teksthover{
+            color:$glavnaboja;
+        }
+    
+}
+.teksthover4{
+    transition: all 0.2s;
+    &:hover{
+        color:$drugaboja;   
+    }
+        .tekstfont2{
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
+        font-style: normal;
+        }
+        .teksthover3{
+            color:$glavnaboja;
+        }
+    
+}

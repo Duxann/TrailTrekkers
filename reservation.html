@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ime i logo</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Crew, Camping, Outdoor recreation, Adventures"/>
+    <meta name="description" content="Discover the wonders of nature with Trail Trekkers."/>
+    <link rel="stylesheet" type="text/css" href="css/scss/style.css"/>
+    <link rel="shortcut icon" type="img/jpg" href="img/tabico.jpg"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="css/scss/responsive.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div id="wrap">
+      <!--header i slider-->
+        <div id="gornji">
+         <!--header-->
+          <header data-bs-theme="dark">  
+            <nav class="navbar fixed-top navbar-expand-md bg-body-tertiary navbar navbar-dark bg-dark col-11 rounded-bottom-4">
+              <div class="container-fluid foo">
+                <a class="navbar-brand fs-3 logonaslov" href="index.html"><span><i class="fa-solid fa-tree"></i></span>Trail <span>trekkers</span></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html #service">Services</a>
+                    <a class="nav-link" href="aboutus.html">About us</a>
+                    <a class="nav-link active haver" href="reservation.html">Reservation</a>
+                    <a class="nav-link" href="aboutme.html">About Me</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </header>
+          </div>
+          <main id="pozadinabout" class="pozadinarezervacije pt-5">
+            <!--Naslov-->
+            <div class="text-center pt-4 container-md">
+              <h2 class="pt-4 naslov">Reservation</h2>
+              <p class="lead pt-2">Reservations guarantee your spot for an unforgettable adventure, ensuring seamless arrangements and personalized experiences tailored to your preferences. With reservations, you secure peace of mind, knowing your journey into the wilderness is meticulously planned and awaiting your arrival.
+              </p>
+            </div>
+            <section class="container py-5">
+              <!--Forma-->
+              <form method="Post" action="#">
+                <!--Ime i prezime-->
+                <div class="input-group">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Name" required>
+                    <label for="floatingInput">Name</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Lastname" required>
+                    <label for="floatingInput">Lastname</label>
+                  </div>
+                </div>
+                <!--Email-->
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <!--Datumi-->
+                <div class="row justify-content-center align-items-center">  
+                <div class="mb-3 col-6">
+                    <label for="checkin">Check in</label>
+                    <input type="date" class="form-control" id="checkin" name="checkin" required>
+                  </div>
+                  <div class="mb-3 col-6">
+                    <label for="checkout">Check out</label>
+                    <input type="date" class="form-control" id="checkout" name=" checkout" required>
+                  </div>
+                </div>
+                <div class="form-floating mb-3">
+                  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected>Choose one of our plans!</option>
+                    <option value="1">Standard</option>
+                    <option value="2">Premium</option>
+                    <option value="3">Wilderness Wanderer</option>
+                    <option value="4">Your plan</option>
+                  </select>
+                  <label for="floatingSelect">Selected package</label>
+                </div>
+                <!--Text area-->
+                <div class="form-floating mb-3">
+                  <textarea class="form-control tekstarea" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <label for="floatingTextarea2">Comments</label>
+                </div>
+                <div class="form-floating mb-3 dugmeblok">
+                <input type="submit" name="dugme" id="dugme" class="btn btn-lg btn-outline-success m-3" value="Submit"/>
+                <input type="reset" name="restart" id="restart" class="btn btn-lg btn-success m-3" value="Reset"/>
+              </div>
+              </form>
+            </section>
+            <hr class="col-10 m-auto pt-3"/>
+             <!--Druga forma-->
+            <div class="row justify-content-center align-items-center mx-2">
+            <section class="col-12 my-4">
+          <div class="card border-success border-2 senka">
+              <div class="card-header text-center text-success">
+                <h1 class="h3 m-3">Make Your plan!</h1>
+              </div>
+                <div class="card-body text-center py-4">
+                  <form method="Post" action="#">
+                    <div class="row">
+                    <div class="mb-3 col-6">
+                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected>Members</option>
+                        <option value="1">1-2</option>
+                        <option value="2">2-5</option>
+                        <option value="3">5-10</option>
+                        <option value="4">10+</option>
+                      </select>
+                    </div>
+                    <div class="mb-3 col-6">
+                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Choose duration!</option>
+                        <option value="1">One day</option>
+                        <option value="2">One-five days</option>
+                        <option value="3">Week</option>
+                        <option value="4">Month</option>
+                      </select>
+                    </div>
+                    </div>
+                    <!--Checkboxovi-->
+                    <div class="form-check form-check-inline mx-3">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                      <label class="form-check-label" for="inlineCheckbox1">Camping</label>
+                    </div>
+                    <div class="form-check form-check-inline mx-3">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                      <label class="form-check-label" for="inlineCheckbox2">Nature Exploration</label>
+                    </div>
+                    <div class="form-check form-check-inline mx-3">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                      <label class="form-check-label" for="inlineCheckbox3">Hiking</label>
+                    </div>
+                    <div class="form-check form-check-inline mx-3">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                      <label class="form-check-label" for="inlineCheckbox4">Hunting</label>
+                    </div>
+                    <div class="form-check form-check-inline mx-3">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                      <label class="form-check-label" for="inlineCheckbox5">Photography</label>
+                    </div>
+                    <div class="form-check form-check-inline mx-3">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+                      <label class="form-check-label" for="inlineCheckbox6">Fishing</label>
+                    </div>
+                    <div class="form-check form-check-inline mx-3">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7">
+                      <label class="form-check-label" for="inlineCheckbox7">Stargazing</label>
+                    </div>
+                    <div class="form-check form-check-inline mx-3">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option8">
+                      <label class="form-check-label" for="inlineCheckbox8">Foraging</label>
+                    </div>
+                    <div class="form-floating my-3">
+                      <input type="text" class="form-control" id="activities" placeholder="activities">
+                      <label for="activities">Other activities*</label>
+                    </div>
+                    <h4 class="lead text-success py-2">Proffesional stuff if you need</h4>
+                    <div class="form-floating mb-3 col-12">
+                      <div class="form-check form-check-inline mx-3">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="option9">
+                        <label class="form-check-label" for="inlineCheckbox9">John Smith</label>
+                      </div>
+                      <div class="form-check form-check-inline mx-3">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox10" value="option10">
+                        <label class="form-check-label" for="inlineCheckbox10">Jackson Rivers</label>
+                      </div>
+                      <div class="form-check form-check-inline mx-3">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="option11">
+                        <label class="form-check-label" for="inlineCheckbox11">Nathan Brooks</label>
+                      </div>
+                      <div class="form-check form-check-inline mx-3">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="option12">
+                        <label class="form-check-label" for="inlineCheckbox12">Liam Carter</label>
+                      </div>
+                    </div>
+                    <div class="pt-3">
+                      <input type="submit" value="Create" name="plan" class="btn btn-outline-success btn-md"/>
+                      <input type="reset" value="Reset" name="restart" class="btn btn-success btn-md ms-2"/>
+                    </div>
+                  </form>
+              </div>
+              <div class="card-footer text-center text-success">
+                <p class="lead">List <strong>other activities</strong> here, and we will contact you if we are able to fulfill them.*</p>
+              </div> 
+              </div>
+            </section>
+          </div>
+          </main>
+          <div id="poz">
+            <footer class="text-light">
+              <div class="container">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-lg-4 col-8 text-center foo my-3">
+                    <a class="navbar-brand fs-3 logonaslov" href="index.html"><span><i class="fa-solid fa-tree"></i></span>Trail <span>trekkers</span></a>
+                  </div>
+                  <div class="col-lg-4 col-8 footer-contact text-center mt-4">
+                    <h4 class="mb-3 text-success">Contact Information:</h4>
+                    <p>Email: primer@gmail.com</p>
+                    <p>Phone: +1234567890</p>
+                  </div>
+                  <div class="col-lg-4 col-8 footer-social text-center foo my-3">
+                    <a class="footer-brand mx-2 fs-3" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="footer-brand mx-2 fs-3" href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a class="footer-brand mx-2 fs-3" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="footer-brand mx-2 fs-3" href="#" target="_blank"><i class="fa-brands fa-sass"></i></a>
+                    <a class="footer-brand mx-2 fs-3" href="#" target="_blank"><i class="fa-solid fa-sitemap"></i></a>
+                    <a class="footer-brand mx-2 fs-3" href="#" target="_blank"><i class="fa-solid fa-robot"></i></a>
+                  </div>
+                </div>
+              </div>
+              <hr class="col-6 m-auto"/>
+              <div class="copyright py-2 text-center">
+                <p>&copy; 2024 Dušan Kojić <br/> All rights reserved.</p>
+              </div>
+            </footer>
+            </div>
+         </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      </body>
+    </html>
